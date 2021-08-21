@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+</head>
+
+<body>
+    
+
+<nav class="navbar navbar-expand-lg navbar-light bg-primary ">
+  <a class="navbar-brand text-white" href="#"><b><h1><span>T</span>RAVEL</h1></b>AND<b><h1><span>T</span>OUR</h1></b></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#" routerLink="register-user"><b>REGISTER</b> </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#" routerLink="login"><b>LOGIN</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#" routerLink="feedback"><b>FEEDBACK</b> </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#" routerLink="contact"><b>CONTACT</b> </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#" routerLink="inventory"><b>REGISTER</b> </a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Student Operations
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#" routerLink="contact">Contact Us</a>
+          <a class="dropdown-item" href="#" routerLink="mpapp">My App</a>
+          <a class="dropdown-item" href="#" routerLink="project1">Choose</a>
+        </div>
+      </li>
+     
+    </ul>
+    
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
+<section class="home" id="home">
+  <div class="content">
+    <h3>adventure is worthwhile</h3>
+    <p>dicover new places with us, adventure awaits</p>
+    <a href="#" class="btn">discover more</a>
+ </div>
+  
+ <div class="video-container">
+    <video src="assets/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+ </div>
+</section>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
+
+
